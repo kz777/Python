@@ -23,7 +23,7 @@ def trip_cost(city, days, spending_money):
     """ returns the sum of the previous three functions when called with days and city, respectively."""
     return (rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city)) + spending_money
 
-
+print trip_cost("Los Angeles", 5, 600)
 
 
 
