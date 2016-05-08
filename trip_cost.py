@@ -19,6 +19,11 @@ def rental_car_cost(days):
         rent -= 20
     return rent
     
-def trip_cost(city, days):
+def trip_cost(city, days, spending_money):
     """ returns the sum of the previous three functions when called with days and city, respectively."""
-    return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city)
+    return (rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city)) + spending_money
+
+
+
+
+
